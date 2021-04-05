@@ -1,0 +1,17 @@
+from selenium import webdriver
+import time
+
+# Make sure you have downloaded chrome driver
+#You have to provide whole path of chrome driver
+
+driver=webdriver.Chrome(executable_path="path of chromedriver.exe")
+
+# Provide the link of which website you want to increase the views
+
+driver.get(" Paste the link of the website ")
+
+refresh rate = int(20)
+
+while True:
+    time.sleep(refreshrate)
+    driver.refresh()
